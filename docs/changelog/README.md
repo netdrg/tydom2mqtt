@@ -1,5 +1,23 @@
 # Changelog
 
+### 2.6.6
+- :fire: Fix regression because of Linux Alpine upgrade (`3.17` -> `3.16`)
+
+### 2.6.5
+- :fire: Revert the deletion of the AUTO boiler mode (`2.6.3`)
+
+### 2.6.4
+- :fire: Fix sensors for Kline sliding openings
+
+### 2.6.3
+- :fire: Replace hold_mode by preset_mode because of HA 2022.9 deprecation 
+
+### 2.6.2
+- :fire: Fix unknown HA device classes
+
+### 2.6.1
+- :fire: Poll one device at a time to avoid sporadic Tybox DOS
+
 ### 2.6.0
 - :star: Add support for TYPASS and Tywatt 5100 gaz sensor
 
