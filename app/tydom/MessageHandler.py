@@ -854,7 +854,7 @@ class MessageHandler:
                                 elif elem["name"] == "energyDistrib":
                                     for elName in elem["values"]:
                                         if elName != 'date':
-                                            element_name = elName
+                                            element_name = elName + "_yearly"
                                             element_index = elName
                                             attr_conso = {
                                                 'device_id': device_id,
